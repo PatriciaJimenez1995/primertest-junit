@@ -18,9 +18,9 @@ public class SumaTest {
 	@Test
 	public void sumaNegativos() {
 		System.out.println("Sumando dos numeros negativos...");
-		Suma S = new Suma(-2,-3);
+		Suma S = new Suma(-2,-14);
 		
-		assertTrue(S.sumar() == -5);
+		assertTrue(S.sumar() == -16);
 		
 	}
 	
