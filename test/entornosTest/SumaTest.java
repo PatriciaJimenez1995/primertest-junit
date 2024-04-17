@@ -9,9 +9,9 @@ public class SumaTest {
 	@Test
 	public void sumaPositivoPositivo() {
 		System.out.println("Sumando dos numeros positivos...");
-		Suma S = new Suma(2,3);
+		Suma S = new Suma(2,20);
 		
-		assertTrue(S.sumar() == 5);
+		assertTrue(S.sumar() == 22);
 		
 	}
 	
